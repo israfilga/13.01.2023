@@ -1,8 +1,16 @@
 *{
     margin: 0;
     padding: 0;
+    background-color: cornflowerblue;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background: #df2351;
+    background: -webkit-linear-gradient(right,#2f91ff,#00c513,#2f91ff,#00c513);
+    background: -o-linear-gradient(right,#2f91ff,#00c513,#2f91ff,#00c513);
+    background: -moz-linear-gradient(right,#2f91ff,#00c513,#2f91ff,#00c513);
+    background: linear-gradient(right,#2f91ff,#00c513,#2f91ff,#00c513);
+ 
 }
-
 body {
     display: flex;
     justify-content: center;
@@ -10,8 +18,10 @@ body {
     height: 100vh;
 }
 
+
 form{
-    width: 300px;
+    width: 700px;
+    height: 500px;
     padding: 32px;
     border-radius: 10px;
     box-shadow: 0 4px 16px #ccc;
@@ -19,9 +29,64 @@ form{
     letter-spacing: 1px;
 }
 
-.form__button
-{
-    font-family: sans-serif;
-    letter-spacing: 1px;
-    font-size: 16px;
+
+.input100{
+    display: block;
+    height: 45px;
+    width: 100%;
+    background: #f2f2f2;
+    border-radius: 2px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    color: #686868;
+    line-height: 1.2;
+    padding: 0 5px;
+    transition: all 4s;
+    margin-top: 10px;
+}
+.label2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* .button{
+    position: absolute;
+    z-index: -1;
+    width: 300%;
+    height: 100%;
+    background: #df2351;
+    background: -webkit-linear-gradient(right,#2f91ff,#00c513,#2f91ff,#00c513);
+    background: -o-linear-gradient(right,#2f91ff,#00c513,#2f91ff,#00c513);
+    background: -moz-linear-gradient(right,#2f91ff,#00c513,#2f91ff,#00c513);
+    background: linear-gradient(right,#2f91ff,#00c513,#2f91ff,#00c513);
+    top: 0;
+    left: -100%;
+    -webkit-transition: all .4s;
+    -o-transition: all .4s;
+    -moz-transition: all .4s;
+    transition: all .4s;
+} */
+   
+
+.btn{
+    margin: 20px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    min-width: 600px;
+    height: 62px;
+    font-family: Raleway-Bold;
+    font-size: 20px;
+    color: #fff;
+    line-height: 1.2;
+    text-transform: uppercase;
+    width: 100px;
+    position: relative;
+
 }
